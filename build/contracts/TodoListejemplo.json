@@ -1,0 +1,323 @@
+{
+  "contractName": "TodoListejemplo",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "numerito",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "taskCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"numerito\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"taskCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Universidad/Ultimo semestre/Seguridad Criptografica/Trabajo Investigaci\\u00f3n/SeguridadCriptografica_SmartContracts/contracts/prueba1.sol\":\"TodoListejemplo\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Universidad/Ultimo semestre/Seguridad Criptografica/Trabajo Investigaci\\u00f3n/SeguridadCriptografica_SmartContracts/contracts/prueba1.sol\":{\"keccak256\":\"0xe14765c0472da79733360200af6632375baa1c8434075c5766efe3793a31c603\",\"urls\":[\"bzz-raw://867cb27176b05839e7b10ee56c76fa4da4788c65c6ec07a62cd1bf38effc1711\",\"dweb:/ipfs/QmPk41moLmjg3xKyxeXtYDozyMTtf3tEojEuTx6t2rKm41\"]}},\"version\":1}",
+  "bytecode": "0x608060405260008055600260015534801561001957600080fd5b5060b0806100286000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806317636b59146037578063b6cb58a5146053575b600080fd5b603d606f565b6040518082815260200191505060405180910390f35b60596075565b6040518082815260200191505060405180910390f35b60015481565b6000548156fea265627a7a723158201928ef5ddd55d05f3a249dac1344c55a70244a972555978400980f1a3d07cc9964736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806317636b59146037578063b6cb58a5146053575b600080fd5b603d606f565b6040518082815260200191505060405180910390f35b60596075565b6040518082815260200191505060405180910390f35b60015481565b6000548156fea265627a7a723158201928ef5ddd55d05f3a249dac1344c55a70244a972555978400980f1a3d07cc9964736f6c63430005100032",
+  "sourceMap": "68:197:0:-;;;228:1;201:28;;261:1;235:27;;68:197;8:9:-1;5:2;;;30:1;27;20:12;5:2;68:197:0;;;;;;;",
+  "deployedSourceMap": "68:197:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;68:197:0;;;;;;;;;;;;;;;;;;;;;;;;235:27;;;:::i;:::-;;;;;;;;;;;;;;;;;;;201:28;;;:::i;:::-;;;;;;;;;;;;;;;;;;;235:27;;;;:::o;201:28::-;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.8.0;\n\n\n\ncontract TodoListejemplo {\n    //state variable, son escritas al blockchain, representan el estado del contrato en el blockchain\n    uint256 public taskCount = 0;\n    uint256 public numerito = 2;\n}\n\n",
+  "sourcePath": "C:/Universidad/Ultimo semestre/Seguridad Criptografica/Trabajo Investigación/SeguridadCriptografica_SmartContracts/contracts/prueba1.sol",
+  "ast": {
+    "absolutePath": "/C/Universidad/Ultimo semestre/Seguridad Criptografica/Trabajo Investigación/SeguridadCriptografica_SmartContracts/contracts/prueba1.sol",
+    "exportedSymbols": {
+      "TodoListejemplo": [
+        8
+      ]
+    },
+    "id": 9,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 8,
+        "linearizedBaseContracts": [
+          8
+        ],
+        "name": "TodoListejemplo",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 4,
+            "name": "taskCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 8,
+            "src": "201:28:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "201:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 3,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "228:1:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 7,
+            "name": "numerito",
+            "nodeType": "VariableDeclaration",
+            "scope": 8,
+            "src": "235:27:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 5,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "235:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "32",
+              "id": 6,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "261:1:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_2_by_1",
+                "typeString": "int_const 2"
+              },
+              "value": "2"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 9,
+        "src": "68:197:0"
+      }
+    ],
+    "src": "32:235:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Universidad/Ultimo semestre/Seguridad Criptografica/Trabajo Investigación/SeguridadCriptografica_SmartContracts/contracts/prueba1.sol",
+    "exportedSymbols": {
+      "TodoListejemplo": [
+        8
+      ]
+    },
+    "id": 9,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 8,
+        "linearizedBaseContracts": [
+          8
+        ],
+        "name": "TodoListejemplo",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 4,
+            "name": "taskCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 8,
+            "src": "201:28:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "201:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 3,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "228:1:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 7,
+            "name": "numerito",
+            "nodeType": "VariableDeclaration",
+            "scope": 8,
+            "src": "235:27:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 5,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "235:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "32",
+              "id": 6,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "261:1:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_2_by_1",
+                "typeString": "int_const 2"
+              },
+              "value": "2"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 9,
+        "src": "68:197:0"
+      }
+    ],
+    "src": "32:235:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xE115657f0490cA903DE70d90734Ac48721A5Ea64",
+      "transactionHash": "0x1da35198b9a490a17558b1dd49b8b63e976f229a0233ab27bd698ca86c9b9a6b"
+    }
+  },
+  "schemaVersion": "3.3.0",
+  "updatedAt": "2020-10-15T20:04:12.659Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
