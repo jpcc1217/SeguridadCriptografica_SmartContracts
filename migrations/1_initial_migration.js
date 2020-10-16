@@ -1,9 +1,7 @@
 const Asd = artifacts.require("Pruebaejemplo");
-const TodoList = artifacts.require("TodoListejemplo");
-const bbb = artifacts.require("Electric");
+const TodoList = artifacts.require("TodoListEjemplo");
 
 module.exports = function (deployer) {
   deployer.deploy(Asd);
   deployer.deploy(TodoList);
-  deployer.deploy(bbb);
 };
